@@ -1,4 +1,4 @@
-package com.csm;
+package com.csm.application;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;

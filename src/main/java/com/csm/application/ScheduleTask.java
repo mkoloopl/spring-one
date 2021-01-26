@@ -1,4 +1,4 @@
-package com.csm;
+package com.csm.application;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;
