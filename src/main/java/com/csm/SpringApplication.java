@@ -10,8 +10,9 @@ public class SpringApplication {
 //        ApplicationContext context = new AnnotationConfigApplicationContext("com.csm");
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
         context.register(AppConfig.class);
+//        context.addApplicationListener(new ApplicationStatedListener());
         context.refresh();
-        CollectionUtils.arrayToList(context.getBeanDefinitionNames()).forEach(item -> System.out.println(item));
+//        CollectionUtils.arrayToList(context.getBeanDefinitionNames()).forEach(item -> System.out.println(item));
         UserService userService = context.getBean(UserService.class);
         userService.save();
     }
