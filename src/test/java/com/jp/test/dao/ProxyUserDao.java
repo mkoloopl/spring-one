@@ -1,6 +1,6 @@
-package com.csm.test.dao;
+package com.jp.test.dao;
 
-import com.csm.dao.UserDao;
+import com.jp.application.UserDao;
 
 import java.util.Date;
 

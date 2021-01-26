@@ -1,7 +1,5 @@
-package com.csm.application;
+package com.jp.application;
 
-import com.csm.service.UserService;
-import com.csm.service.impl.UserServiceImpl;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class SpringApplication {

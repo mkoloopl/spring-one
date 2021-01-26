@@ -1,7 +1,5 @@
-package com.csm.service.impl;
+package com.jp.application;
 
-import com.csm.dao.UserDao;
-import com.csm.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
@@ -21,6 +19,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void update() {
+
         System.out.println("update");
     }
 

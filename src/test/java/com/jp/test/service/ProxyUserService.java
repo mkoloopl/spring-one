@@ -1,6 +1,6 @@
-package com.csm.test.service;
+package com.jp.test.service;
 
-import com.csm.service.UserService;
+import com.jp.application.UserService;
 
 import java.util.Date;
 

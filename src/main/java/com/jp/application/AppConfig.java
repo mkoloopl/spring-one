@@ -1,19 +1,15 @@
-package com.csm.application;
+package com.jp.application;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.util.CollectionUtils;
 
-import javax.annotation.Resource;
-
 @Configuration
 //@Import({UserDaoConfig.class, UserServiceConfig.class})
-@ComponentScan("com.csm")
+@ComponentScan("com.jp")
 public class AppConfig {
 
     @EventListener

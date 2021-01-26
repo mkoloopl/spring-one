@@ -1,8 +1,8 @@
-package com.csm.test.service;
+package com.jp.test.service;
 
-import com.csm.service.UserService;
-import com.csm.service.impl.UserServiceImpl;
-import com.csm.test.proxy.ProxyJDK;
+import com.jp.application.UserService;
+import com.jp.application.UserServiceImpl;
+import com.jp.test.proxy.ProxyJDK;
 import org.junit.Test;
 
 public class ProxyUserServiceTest {

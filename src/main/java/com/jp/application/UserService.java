@@ -1,4 +1,4 @@
-package com.csm.service;
+package com.jp.application;
 
 public interface UserService {
     public void save();

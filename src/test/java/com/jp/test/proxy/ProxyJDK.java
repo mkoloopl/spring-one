@@ -1,4 +1,4 @@
-package com.csm.test.proxy;
+package com.jp.test.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

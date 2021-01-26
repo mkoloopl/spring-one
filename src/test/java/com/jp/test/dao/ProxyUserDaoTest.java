@@ -1,6 +1,6 @@
-package com.csm.test.dao;
+package com.jp.test.dao;
 
-import com.csm.dao.impl.UserDaoImpl;
+import com.jp.application.UserDaoImpl;
 import org.junit.Test;
 
 public class ProxyUserDaoTest {

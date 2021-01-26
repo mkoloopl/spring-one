@@ -1,4 +1,4 @@
-package com.csm.application;
+package com.jp.application;
 
 
 public class SingleTonUser {
